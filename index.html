@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch ProtocolTester</title>
+</head>
+<body>
+    <h1>Welcome to VAW Launcher</h1>
+    
+    <!-- Button to launch the game -->
+    <button onclick="launchVoiceRecognitionScene()">Launch Voice Recognition Testing</button>
+
+    <script>
+        // JavaScript function to launch the game using the custom protocol
+        function launchVoiceRecognitionScene() {
+            // Replace 'vawlauncher://' with your custom protocol
+            window.location.href = 'mbi://?sceneId=VoiceRecognition';
+            console.log(window.location.href);
+        }
+    </script>
+</body>
+</html>
